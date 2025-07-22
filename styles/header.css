@@ -1,50 +1,29 @@
 header {
-
-  padding: 10px;
+  padding: 35px 210px 113px;
   background-color: #000000; 
   font: var(--text-header);
   color: var(--text-color-white); 
+}
 
-  .logo img {
 
-    width: 187px;
-    height: 53px;
-
-  }
-  .container {
-
+.menu {  
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  margin: 35px 210px;
-  }
   
 }
 
-.nav-list {
+.logo-trilha img {
+  width: 187px;
+  height: 53px;
+}
 
+
+.nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
-
-  
 }
 
- .btn-primary  {
-  background-color: var( --button-color);
-  padding: 10px 20px;
-  border-radius: 50px;
-  border: none;
-}
-
-.btn-secondary {
-
-  background-color: var( --button-color);
-  padding: 10px 20px;
-  border-radius: 50px;
-  border: none;
-
-}

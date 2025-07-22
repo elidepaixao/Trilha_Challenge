@@ -20,7 +20,9 @@
   
 }
 
-main {
-  padding: 0;
-}
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  color: var(--text-color-black);
 
+}
