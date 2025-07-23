@@ -1,6 +1,9 @@
 header {
+
   padding: 35px 210px 113px;
-  background-color: #000000; 
+
+  
+  background-color: var(--bg-color-black); 
   font: var(--text-header);
   color: var(--text-color-white); 
 }

@@ -1,23 +1,23 @@
-/*HERO SECTION*/
 .hero {
-  background-color: var(--bg-color-black);
-  padding: 0 210px 135px;
-      
-}
 
-.hero >.aside {
+  padding: 0 210px 135px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+
+  background-color: var(--bg-color-black); 
+       
 }
 
-.hero >.aside >.hero-text {
+  .hero >.aside >.hero-text {
 
   max-width: 531px;
 }
 
 .hero .aside h1 {
+
   font: var(--h1);
   color: var(--text-color-white);
   letter-spacing: 0;
@@ -26,6 +26,7 @@
 }
 
 .hero .aside .hero-text p {
+
   font: var(--text);
   color: var(--text-color-white);
   width: 525px;
@@ -33,41 +34,54 @@
   margin-top: 20px;
 }
 
-.hero .hero-cards {
-  
+
+.hero-cards {
+
+  width: 494px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   position: relative;
   
  }
 
-.hero >.hero-cards >.retangulo-destaque {
-  width: 385px;
-  height: 385px;
-  background: linear-gradient(45deg, #A8FF36, #51850C);
-  transform: rotate(6deg);
-  color: white;
-  border-radius: 35px;
+.hero-cards::before {
 
-
+  content: "";
   position: absolute;
-  z-index: 1;
-  left: 45%;
+  
+  top: 50%;
+  left: 60%; 
+  width: 100%;
+  height: 100%;
+  
+  max-width: 385px; 
+  aspect-ratio: 1/1; 
+  background: linear-gradient(45deg, #A8FF36, #51850C);
+  border-radius: 35px;
+  transform: translate(-50%, -50%) rotate(6deg);
+  z-index: 0;
+  
 }
 
+.image-card {
+  
+ height: 350px;
 
-.hero >.hero-cards >.image-card img {
+}
 
-  width: 385px;
-  height: 385px;
+.image-card img {
+
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 35px;
 
   position: absolute;
-  /*top: 50%; /* começa a 50% da altura do container */
-  left: 50%; /* centro na horizontal */
-  transform: translate(-50%, -50%) translateY(-50px); /* centraliza e sobrepõe*/
-  z-index: 2; /* fica acima do retângulo */
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%) translateY(-50px);
+  z-index: 2;
 }
-
