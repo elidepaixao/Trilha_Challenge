@@ -17,15 +17,17 @@
   --font-family: "Poppins", sans-serif; 
   --text-header: 500 1.1rem/124% var(--font-family);
   --h1: 500 2.6rem/150% var(--font-family);
+  --h2: 500 1.3rem/122% var(--font-family);
   --text: 400 1.3rem/126% var(--font-family);
   --text-button: 600 1.1rem/126% var(--font-family);
+  --text-card: 400 0.87rem/126% var(--font-family);
   
 }
 
 body {
 
   font-family: var(--font-family);
-  line-height: 1.6;
+  line-height: 1.6rem;
   color: var(--text-color-black);
 
 }
