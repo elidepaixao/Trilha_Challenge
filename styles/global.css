@@ -7,10 +7,12 @@
 :root {
   --bg-color-black: #000000;
   --bg-color-grey: #d7d7d7;
+  --bg-color-white:#ffffff;
   --button-color: #12D37C;
   --light-green: #A8FF36;
   --text-color-white: #ffffff;
   --text-color-black: #1B1B1B;
+
 
   --font-family: "Poppins", sans-serif; 
   --text-header: 500 1.1rem/124% var(--font-family);
